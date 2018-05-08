@@ -8,3 +8,4 @@ fish_data_cat = fish_data %>%
   mutate(length_cat = ifelse(length > 300, "big", "small"))
 
 
+#this is a trial
