@@ -8,4 +8,7 @@ fish_data_cat = fish_data %>%
   mutate(length_cat = ifelse(length > 300, "big", "small")) %>% 
   filter(scalelength > 1)
 
+library(ggplot2)
 
+ggplot(data = fish_data_cat, mapping = aes(length, scalelength)) +
+  geom_point()
