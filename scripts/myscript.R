@@ -1,6 +1,6 @@
 
 
-fish_data <- read.csv("data/Gaeta_etal_CLC_data.csv")
+fish_data <- read.csv("data/Gaeta_etal_CLC_data_1.csv.csv")
 
 library(dplyr)
 #this creates a new table catergorizing fish by size
